@@ -1,3 +1,4 @@
+import SocialLinks from "@/components/socialButtons";
 import {Badge} from "@/components/ui/Badge";
 import Link from "next/link";
 import React from 'react';
@@ -34,11 +35,22 @@ const Portfolio = () => {
                 <span className="font-medium text-foreground/90">Fullstack Developer</span>
               </div>
             </div>
-            
-            
-            <Separator className="mb-6 bg-border" />
-            
-            
+            <div className=" flex flex-col gap-3 text-sm md:text-base">
+              <Link
+                className="text-foreground  rounded-full justify-start"
+                href="/build"
+              >
+                Need <b className='text-white transition-all duration-200 bg-primary/60 hover:bg-primary/80 p-0.5 rounded-xl px-2'>build</b> something? Click here.
+              </Link>
+              <Link
+                className="text-foreground  rounded-full justify-start"
+                href="/sponsorship"
+              >
+                Want to <b className='text-white transition-all duration-200 bg-primary/60 hover:bg-primary/80 p-0.5 rounded-xl px-2'>sponsor</b> my videos? Click here.
+              </Link>
+            </div>
+            <Separator className="bg-border" />
+            <SocialLinks />
           </div>
           
           <div className="md:w-2/3 space-y-8">
