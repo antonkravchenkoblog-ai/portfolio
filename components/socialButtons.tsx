@@ -53,6 +53,7 @@ export default function SocialLinks() {
 						{socialLinks.map((social, index) => (
 							<Tooltip key={social.name}>
 								<TooltipTrigger asChild>
+									<a href={social.link} target="_blank" rel="noreferrer">
 									<img
 										src={social.icon}
 										alt={social.name}
@@ -63,6 +64,7 @@ export default function SocialLinks() {
 											`z-[${40 - index * 10}]`
 										)}
 									/>
+									</a>
 								</TooltipTrigger>
 								<TooltipContent className="bg-black text-white border-none rounded-xl py-1 px-2.5 text-xs">
 									{social.handle}
