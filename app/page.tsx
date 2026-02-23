@@ -38,13 +38,13 @@ const Portfolio = () => {
             <div className=" flex flex-col gap-3 text-sm md:text-base">
               <Link
                 className="text-foreground  rounded-full justify-start"
-                href="/build"
+                href="https://tally.so/r/b57ML2"
               >
                 Need <b className='text-white transition-all duration-200 bg-primary/60 hover:bg-primary/80 p-0.5 rounded-xl px-2'>build</b> something? Click here.
               </Link>
               <Link
                 className="text-foreground  rounded-full justify-start"
-                href="/sponsorship"
+                href="https://tally.so/r/pbKNWZ"
               >
                 Want to <b className='text-white transition-all duration-200 bg-primary/60 hover:bg-primary/80 p-0.5 rounded-xl px-2'>sponsor</b> my videos? Click here.
               </Link>
