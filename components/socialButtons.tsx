@@ -47,7 +47,6 @@ const socialLinks = [
 export default function SocialLinks() {
 	return (
 		<div className="">
-			<TooltipProvider delayDuration={100}>
 				<div className=" items-start sm:items-center gap-2">
 					<div className="flex">
 						{socialLinks.map((social, index) => (
@@ -74,7 +73,6 @@ export default function SocialLinks() {
 					</div>
 				</div>
 				
-</TooltipProvider>
 </div>
 );
 }
