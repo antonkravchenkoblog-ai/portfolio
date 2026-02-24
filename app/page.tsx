@@ -57,7 +57,7 @@ const Portfolio = () => {
 
           <div className="flex flex-col items-start gap-3 text-base">
             <span>
-              Need dev/design help for your company?{" "}
+              Need implement feature/dev help for your?{" "}
               <Link
                 href="https://tally.so/r/b57ML2"
                 className="text-primary hover:text-primary/80 transition-colors"
